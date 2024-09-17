@@ -16,11 +16,6 @@
             "Jensone\\ProfileGenerator\\": "src/"
         }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-main": "1.0.x-dev"
-        }
-    },
     "authors": [
         {
             "name": "Jensone",
