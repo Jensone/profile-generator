@@ -2,6 +2,11 @@
     "name": "jensone/profile-generator",
     "description": "Symfony User Profile Generator to speed up your workflow 🚀",
     "type": "symfony-bundle",
+    "require": {
+        "jensone/profile-generator": "dev-main"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require-dev": {
         "php": ">=8.1",
         "symfony/console": "^5.0",
@@ -12,6 +17,11 @@
     "autoload": {
         "psr-4": {
             "Jensone\\ProfileGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0.x-dev"
         }
     },
     "authors": [
