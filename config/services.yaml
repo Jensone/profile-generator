@@ -1,0 +1,6 @@
+services:
+    Jensone\ProfileGenerator\Command\ProfileGeneratorCommand:
+        arguments:
+            $projectDir: '%kernel.project_dir%'
+        tags:
+            - { name: 'console.command' }

@@ -1,0 +1,23 @@
+{
+    "name": "jensone/profile-generator",
+    "description": "Symfony User Profile Generator to speed up your workflow 🚀",
+    "type": "symfony-bundle",
+    "require-dev": {
+        "php": ">=8.1",
+        "symfony/console": "^5.0",
+        "symfony/filesystem": "^5.0",
+        "symfony/http-client": "^5.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jensone\\ProfileGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jensone",
+            "email": "hello@jensone.com"
+        }
+    ]
+}
